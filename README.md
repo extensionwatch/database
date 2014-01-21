@@ -19,9 +19,10 @@ Workflow
 
 To report a malware/adware extension, create an issue with:
 
-* Title it with the extension name
+* Title it with the browser + extension name like this: "[Chrome] Bad Extension" or "[Chrome + Firefox] Naughty Logic"
 * The extension's ID or installation domain or link or something we can identify it with
 * As much information about the malware it's peddling as possible (ad networks being used, malicious activities performed, etc.).  We will verify all this information, but the the more we have to work with at the beginning, the better.
+* Give it an issue label with the browser's name (if there are multiple, label it multiple times).
 
 At that point, once it's greenlit by someone, create a PR with the JSON file in place and mention the issue in the PR body.  We'll merge it in and on the next deploy, the extension(s) will pull down the new data and start using it immediately.
 
